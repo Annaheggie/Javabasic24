@@ -1,5 +1,7 @@
 package javabasicanna.homeworks.lecture2;
 
+
+
 public class Coordinates {
 
     public static void main(String[] args) {

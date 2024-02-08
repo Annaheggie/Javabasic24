@@ -2,9 +2,9 @@ package javabasicanna.homeworks.lecture3;
 
 public class ChineseDynasties {
     public static void main(String[] args) {
-        int liWarrior = 860;
-        int liArcher = 860;
-        int liRider = 860;
+        int liWarrior = 860; // amount of li warrior
+        int liArcher = 860; // amount of li archer
+        int liRider = 860; // amount of li rider
 
         int mingWarrior = (int) (liWarrior * 1.5);
         int mingArcher = (int) (liArcher * 1.5);
