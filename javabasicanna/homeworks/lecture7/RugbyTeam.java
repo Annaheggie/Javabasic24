@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class RugbyTeam {
     public static void main(String[] args) {
-        int[] team1Ages = generateRandomAges(25);
-        int[] team2Ages = generateRandomAges(25);
+        int[] team1Ages = generateRandomAges(25); //how many players we have
+        int[] team2Ages = generateRandomAges(25); //how many players we have
 
         System.out.println("Team 1 Ages:");
         displayAges(team1Ages);
