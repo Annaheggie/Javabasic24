@@ -21,11 +21,11 @@ public class LotteryNumberMatching {
         System.out.println("Number of Matches: " + matches);
     }
 
-    private static int[] generateRandomNumbers(int numb) {
-        int[] numbers = new int[numb];
+    private static int[] generateRandomNumbers(int Numb) {
+        int[] numbers = new int[Numb];
         Random random = new Random();
 
-        for (int i = 0; i < numb; i++) {
+        for (int i = 0; i < Numb; i++) {
             numbers[i] = random.nextInt(10);
         }
 
@@ -33,13 +33,13 @@ public class LotteryNumberMatching {
     }
 
     private static void bubbleSort(int[] numbers) {
-        int n = numbers.length;
+       // int n = numbers.length;
         boolean swapped;
 
-        for (int i = 0; i < n - 1; i++) {
+        for (int i = 0; i < numbers.length - 1; i++) {
             swapped = false;
 
-            for (int j = 0; j < n - i - 1; j++) {
+            for (int j = 0; j < numbers.length - i - 1; j++) {
                 if (numbers[j] > numbers[j + 1]) {
                     int temp = numbers[j];
                     numbers[j] = numbers[j + 1];
