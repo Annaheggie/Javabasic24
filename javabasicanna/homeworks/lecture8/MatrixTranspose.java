@@ -32,14 +32,7 @@ public class MatrixTranspose {
                 transposedMatrix[j][i] = originalMatrix[i][j];
             }
         }
-        // Print the original matrix
-        System.out.println("The original matrix is:");
-        for (int i = 0; i < M; i++) {
-            for (int j = 0; j < N; j++) {
-                System.out.print(originalMatrix[i][j] + " ");
-            }
-            System.out.println();
-        }
+
         // Print the transposed matrix
         System.out.println("The transposed matrix is:");
         for (int i = 0; i < N; i++) {
