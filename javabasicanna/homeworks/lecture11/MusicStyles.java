@@ -6,7 +6,6 @@ public class MusicStyles {
     }
 }
 
-// PopMusic class inheriting from MusicStyles
 class PopMusic extends MusicStyles {
     @Override
     public void playMusic() {
@@ -14,7 +13,7 @@ class PopMusic extends MusicStyles {
     }
 }
 
-// RockMusic class inheriting from MusicStyles
+
 class RockMusic extends MusicStyles {
     @Override
     public void playMusic() {
@@ -22,7 +21,6 @@ class RockMusic extends MusicStyles {
     }
 }
 
-// ClassicMusic class inheriting from MusicStyles
 class ClassicMusic extends MusicStyles {
     @Override
     public void playMusic() {
@@ -30,5 +28,4 @@ class ClassicMusic extends MusicStyles {
     }
 }
 
-// Main class
 
